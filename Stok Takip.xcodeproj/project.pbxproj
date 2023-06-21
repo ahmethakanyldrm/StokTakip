@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C465C302A41AE35008B186B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C2F2A41AE35008B186B /* AppDelegate.swift */; };
+		1C465C322A41AE35008B186B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C312A41AE35008B186B /* SceneDelegate.swift */; };
+		1C465C372A41AE35008B186B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C465C352A41AE35008B186B /* Main.storyboard */; };
+		1C465C392A41AE36008B186B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C465C382A41AE36008B186B /* Assets.xcassets */; };
+		1C465C3C2A41AE36008B186B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C465C3A2A41AE36008B186B /* LaunchScreen.storyboard */; };
+		1C465C4B2A41AF61008B186B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C4A2A41AF61008B186B /* Constants.swift */; };
+		1C465C4D2A41AFE6008B186B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C4C2A41AFE6008B186B /* AuthService.swift */; };
+		1C465C4F2A41B00A008B186B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C4E2A41B00A008B186B /* Product.swift */; };
+		1C465C512A41B032008B186B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C502A41B032008B186B /* HomeTableViewCell.swift */; };
+		1C465C542A41B062008B186B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C532A41B062008B186B /* WelcomeViewController.swift */; };
+		1C465C572A41B08E008B186B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C562A41B08E008B186B /* LoginViewController.swift */; };
+		1C465C592A41B0B3008B186B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C582A41B0B3008B186B /* SignUpViewController.swift */; };
+		1C465C5B2A41B0D6008B186B /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C5A2A41B0D6008B186B /* AddProductViewController.swift */; };
+		1C465C5D2A41B0F0008B186B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C5C2A41B0F0008B186B /* HomeViewController.swift */; };
+		1C465C5F2A41B11B008B186B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C5E2A41B11B008B186B /* DetailViewController.swift */; };
+		1C465C612A41B133008B186B /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C465C602A41B133008B186B /* ChartViewController.swift */; };
+		1C465C632A41B319008B186B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C465C622A41B319008B186B /* GoogleService-Info.plist */; };
+		C5EFF67EBE95ACC668D9862B /* Pods_Stok_Takip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF4A01B2276A40A3DC649B /* Pods_Stok_Takip.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13928A692E26E4C015232955 /* Pods-Stok Takip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stok Takip.debug.xcconfig"; path = "Target Support Files/Pods-Stok Takip/Pods-Stok Takip.debug.xcconfig"; sourceTree = "<group>"; };
+		1C465C2C2A41AE35008B186B /* Stok Takip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stok Takip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C465C2F2A41AE35008B186B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C465C312A41AE35008B186B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C465C362A41AE35008B186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C465C382A41AE36008B186B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C465C3B2A41AE36008B186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C465C3D2A41AE36008B186B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C465C4A2A41AF61008B186B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1C465C4C2A41AFE6008B186B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		1C465C4E2A41B00A008B186B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1C465C502A41B032008B186B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1C465C532A41B062008B186B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1C465C562A41B08E008B186B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1C465C582A41B0B3008B186B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1C465C5A2A41B0D6008B186B /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		1C465C5C2A41B0F0008B186B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C465C5E2A41B11B008B186B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1C465C602A41B133008B186B /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		1C465C622A41B319008B186B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9974428B0FB401CE73F5CE83 /* Pods-Stok Takip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stok Takip.release.xcconfig"; path = "Target Support Files/Pods-Stok Takip/Pods-Stok Takip.release.xcconfig"; sourceTree = "<group>"; };
+		C9DF4A01B2276A40A3DC649B /* Pods_Stok_Takip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stok_Takip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C465C292A41AE35008B186B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EFF67EBE95ACC668D9862B /* Pods_Stok_Takip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C465C232A41AE35008B186B = {
+			isa = PBXGroup;
+			children = (
+				1C465C622A41B319008B186B /* GoogleService-Info.plist */,
+				1C465C2E2A41AE35008B186B /* Stok Takip */,
+				1C465C2D2A41AE35008B186B /* Products */,
+				CCAEA11B82F28ABD6791CE4F /* Pods */,
+				3E13489EA45F786A76EB8977 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C465C2D2A41AE35008B186B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C2C2A41AE35008B186B /* Stok Takip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C465C2E2A41AE35008B186B /* Stok Takip */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C492A41AF4F008B186B /* Utils */,
+				1C465C482A41AF48008B186B /* API */,
+				1C465C472A41AF42008B186B /* Models */,
+				1C465C462A41AF33008B186B /* Views */,
+				1C465C452A41AF2B008B186B /* Controller */,
+				1C465C442A41AEF2008B186B /* Resources */,
+				1C465C432A41AEE3008B186B /* Delegates */,
+			);
+			path = "Stok Takip";
+			sourceTree = "<group>";
+		};
+		1C465C432A41AEE3008B186B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C312A41AE35008B186B /* SceneDelegate.swift */,
+				1C465C2F2A41AE35008B186B /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		1C465C442A41AEF2008B186B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C3D2A41AE36008B186B /* Info.plist */,
+				1C465C3A2A41AE36008B186B /* LaunchScreen.storyboard */,
+				1C465C382A41AE36008B186B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C465C452A41AF2B008B186B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C522A41B047008B186B /* Onboarding */,
+				1C465C552A41B078008B186B /* Authentication */,
+				1C465C5A2A41B0D6008B186B /* AddProductViewController.swift */,
+				1C465C5C2A41B0F0008B186B /* HomeViewController.swift */,
+				1C465C5E2A41B11B008B186B /* DetailViewController.swift */,
+				1C465C602A41B133008B186B /* ChartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C465C462A41AF33008B186B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C352A41AE35008B186B /* Main.storyboard */,
+				1C465C502A41B032008B186B /* HomeTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C465C472A41AF42008B186B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C4E2A41B00A008B186B /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C465C482A41AF48008B186B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C4C2A41AFE6008B186B /* AuthService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1C465C492A41AF4F008B186B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C4A2A41AF61008B186B /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1C465C522A41B047008B186B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C532A41B062008B186B /* WelcomeViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1C465C552A41B078008B186B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				1C465C562A41B08E008B186B /* LoginViewController.swift */,
+				1C465C582A41B0B3008B186B /* SignUpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		3E13489EA45F786A76EB8977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF4A01B2276A40A3DC649B /* Pods_Stok_Takip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCAEA11B82F28ABD6791CE4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13928A692E26E4C015232955 /* Pods-Stok Takip.debug.xcconfig */,
+				9974428B0FB401CE73F5CE83 /* Pods-Stok Takip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C465C2B2A41AE35008B186B /* Stok Takip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C465C402A41AE36008B186B /* Build configuration list for PBXNativeTarget "Stok Takip" */;
+			buildPhases = (
+				B39F96E3453F574835E57097 /* [CP] Check Pods Manifest.lock */,
+				1C465C282A41AE35008B186B /* Sources */,
+				1C465C292A41AE35008B186B /* Frameworks */,
+				1C465C2A2A41AE35008B186B /* Resources */,
+				1708B27BAFE52D17D54F8593 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stok Takip";
+			productName = "Stok Takip";
+			productReference = 1C465C2C2A41AE35008B186B /* Stok Takip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C465C242A41AE35008B186B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1C465C2B2A41AE35008B186B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C465C272A41AE35008B186B /* Build configuration list for PBXProject "Stok Takip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C465C232A41AE35008B186B;
+			productRefGroup = 1C465C2D2A41AE35008B186B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C465C2B2A41AE35008B186B /* Stok Takip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C465C2A2A41AE35008B186B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C465C3C2A41AE36008B186B /* LaunchScreen.storyboard in Resources */,
+				1C465C632A41B319008B186B /* GoogleService-Info.plist in Resources */,
+				1C465C392A41AE36008B186B /* Assets.xcassets in Resources */,
+				1C465C372A41AE35008B186B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1708B27BAFE52D17D54F8593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stok Takip/Pods-Stok Takip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stok Takip/Pods-Stok Takip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stok Takip/Pods-Stok Takip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39F96E3453F574835E57097 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stok Takip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C465C282A41AE35008B186B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C465C5F2A41B11B008B186B /* DetailViewController.swift in Sources */,
+				1C465C612A41B133008B186B /* ChartViewController.swift in Sources */,
+				1C465C5B2A41B0D6008B186B /* AddProductViewController.swift in Sources */,
+				1C465C572A41B08E008B186B /* LoginViewController.swift in Sources */,
+				1C465C542A41B062008B186B /* WelcomeViewController.swift in Sources */,
+				1C465C302A41AE35008B186B /* AppDelegate.swift in Sources */,
+				1C465C592A41B0B3008B186B /* SignUpViewController.swift in Sources */,
+				1C465C512A41B032008B186B /* HomeTableViewCell.swift in Sources */,
+				1C465C4D2A41AFE6008B186B /* AuthService.swift in Sources */,
+				1C465C322A41AE35008B186B /* SceneDelegate.swift in Sources */,
+				1C465C4B2A41AF61008B186B /* Constants.swift in Sources */,
+				1C465C4F2A41B00A008B186B /* Product.swift in Sources */,
+				1C465C5D2A41B0F0008B186B /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C465C352A41AE35008B186B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C465C362A41AE35008B186B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C465C3A2A41AE36008B186B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C465C3B2A41AE36008B186B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C465C3E2A41AE36008B186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C465C3F2A41AE36008B186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C465C412A41AE36008B186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13928A692E26E4C015232955 /* Pods-Stok Takip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54M6VWH583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stok Takip/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmethakan.Stok-Takip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C465C422A41AE36008B186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9974428B0FB401CE73F5CE83 /* Pods-Stok Takip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54M6VWH583;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stok Takip/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmethakan.Stok-Takip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C465C272A41AE35008B186B /* Build configuration list for PBXProject "Stok Takip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C465C3E2A41AE36008B186B /* Debug */,
+				1C465C3F2A41AE36008B186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C465C402A41AE36008B186B /* Build configuration list for PBXNativeTarget "Stok Takip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C465C412A41AE36008B186B /* Debug */,
+				1C465C422A41AE36008B186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C465C242A41AE35008B186B /* Project object */;
+}
