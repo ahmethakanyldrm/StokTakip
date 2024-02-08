@@ -2,7 +2,7 @@
 
 Bu proje, Swift ve UIKit (Storyboard) kullanılarak geliştirilmiş bir stok takip uygulamasıdır. Uygulama, MVC (Model-View-Controller) mimarisi kullanılarak tasarlanmış olup, Firebase, Charts ve TinyConstraints gibi kütüphaneler içermektedir.
 
-## Technolojiler
+## Teknolojiler
 - Swift
 - Xcode 
 - UIKit
